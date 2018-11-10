@@ -1,4 +1,4 @@
-﻿<Window x:Class="DXSample_FocusingCells.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" Title="Focusing Cells" Height="300" Width="491">
+<Window x:Class="DXSample_FocusingCells.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" Title="Focusing Cells" Height="300" Width="491">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
