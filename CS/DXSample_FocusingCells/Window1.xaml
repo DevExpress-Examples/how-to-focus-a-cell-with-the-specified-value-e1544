@@ -1,15 +1,22 @@
-<Window x:Class="DXSample_FocusingCells.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" Title="Focusing Cells" Height="300" Width="491">
+<Window x:Class="DXSample_FocusingCells.Window1" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        Height="350" Width="600">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="32" />
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <dxg:GridControl Margin="5" Name="grid" AutoGenerateColumns="AddNew">
+        <dxg:GridControl Name="grid" AutoGenerateColumns="AddNew">
             <dxg:GridControl.View>
-                <dxg:TableView x:Name="view" AutoWidth="True" ShowGroupPanel="False" AllowGrouping="False" NavigationStyle="Cell" />
+                <dxg:TableView x:Name="view" AutoWidth="True" FadeSelectionOnLostFocus="False"/>
             </dxg:GridControl.View>
         </dxg:GridControl>
-        <Button Grid.Row="1" HorizontalAlignment="Left" Margin="2" Click="Button_Click">
-            Find Next</Button>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBlock Text="Unit Price:" TextAlignment="Right" Padding="4"/>
+            <TextBox x:Name="textBox" Width="50" Margin="0,0,5,0" HorizontalAlignment="Left"/>
+            <Button  Content="Focus Cell" HorizontalAlignment="Left" Click="FocusCell"/>
+        </StackPanel>
     </Grid>
 </Window>
