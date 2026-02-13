@@ -30,7 +30,7 @@ This example shows how to identify a data cell with the specified value and focu
 * [WPF Data Grid - Select Rows that Contain the Specified Value](https://github.com/DevExpress-Examples/how-to-select-rows-that-contain-the-specified-value-e1920)
 * [WPF Data Grid - Change the Appearance of Focused Rows and Cells](https://github.com/DevExpress-Examples/how-to-change-the-appearance-of-a-focused-data-row-and-a-focused-cell-e1627)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-focus-a-cell-with-the-specified-value-e1544&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-focus-a-cell-with-the-specified-value-e1544&~~~was_helpful=no)
 
